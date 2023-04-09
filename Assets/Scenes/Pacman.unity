@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 56355781}
   - component: {fileID: 56355782}
   m_Layer: 0
-  m_Name: Square (1)
+  m_Name: Passage_Left_Mask
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -308,7 +308,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72aefd80a681d4e7b9512548eec1d930, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
 --- !u!50 &168634785
 Rigidbody2D:
   serializedVersion: 4
@@ -6797,7 +6796,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c463fd79eca834bc8bd76a3e386314ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _connection: {fileID: 1276657553}
+  _connection: {fileID: 1276657554}
 --- !u!1 &1276657553
 GameObject:
   m_ObjectHideFlags: 0
@@ -6900,7 +6899,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c463fd79eca834bc8bd76a3e386314ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _connection: {fileID: 1766834442}
+  _connection: {fileID: 1766834443}
 --- !u!1 &1766834442
 GameObject:
   m_ObjectHideFlags: 0
@@ -9533,6 +9532,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fad40da12cb414275a2e5e7c8c940ae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  points: 0
 --- !u!1 &2009616436
 GameObject:
   m_ObjectHideFlags: 0
@@ -9544,7 +9544,7 @@ GameObject:
   - component: {fileID: 2009616437}
   - component: {fileID: 2009616438}
   m_Layer: 0
-  m_Name: Square
+  m_Name: Passage_Right_Mask
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

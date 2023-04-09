@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8798721991853425025}
   - component: {fileID: 8798721991853425024}
   - component: {fileID: 8798721991853425027}
+  - component: {fileID: -8582397322036082921}
   m_Layer: 0
   m_Name: PowerPellet
   m_TagString: Untagged
@@ -74,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f3ad6a179f966804cad0514a2acbf0b0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f5539a5cab8e4b0479adf95423fa7c86, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -111,3 +112,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.5}
   m_EdgeRadius: 0
+--- !u!114 &-8582397322036082921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8798721991853425026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e20e7aa263c8477b82b084e7813767f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 50
+  duration: 8

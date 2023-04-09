@@ -1,10 +1,9 @@
 using UnityEngine;
 
 [RequireComponent(typeof(Movement))]
+[RequireComponent(typeof(Rigidbody2D))]
 public class Pacman : MonoBehaviour
-{
-    [SerializeField] private float speed;
-    
+{   
     private Movement _movement;
 
     // Start is called before the first frame update
@@ -34,7 +33,11 @@ public class Pacman : MonoBehaviour
         }
 
         float angle = Mathf.Atan2(_movement.direction.y, _movement.direction.x);
-
         this.transform.rotation = Quaternion.AngleAxis(angle * Mathf.Rad2Deg, Vector3.forward);
+    }
+
+    public void Reset()
+    {
+        _movement.ResetState();
     }
 }
